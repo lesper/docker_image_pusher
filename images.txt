@@ -28,4 +28,8 @@ jenkins/jenkins
 quay.io/coreos/etcd:v3.5.0
 gitlab/gitlab-ce:latest
 gogs/gogs:latest
-elasticsearch:latest
+elasticsearch:8.14.0
+#https://blog.csdn.net/qq_43371556/article/details/112442092
+sebp/elk:latest
+kibana:8.4.3
+docker.elastic.co/kibana/kibana:6.0.0
