@@ -4,3 +4,27 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+#更改
+alpine
+python:alpine3.19
+kasmweb/nginx:1.25.3
+--platform=linux/amd64 redis:7.0.15-alpine3.20
+--platform=linux/arm/v7 redis:7.0.15-alpine3.20
+yandex/clickhouse-server
+yandex/clickhouse-client
+mongo
+mysql
+redis
+postgres
+zookeeper
+nacos/nacos-server
+wurstmeister/kafka
+rabbitmq
+amazoncorretto:8
+amazoncorretto:11
+amazoncorretto:17
+amazoncorretto:21
+jenkins/jenkins
+quay.io/coreos/etcd:v3.5.0
+gitlab/gitlab-ce:latest
+gogs/gogs:latest
