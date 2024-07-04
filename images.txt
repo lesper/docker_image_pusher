@@ -34,3 +34,4 @@ elasticsearch:8.14.0
 sebp/elk:latest
 kibana:8.4.3
 docker.elastic.co/kibana/kibana:6.0.0
+redis/redis-stack-server:latest
