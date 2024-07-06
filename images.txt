@@ -35,3 +35,4 @@ sebp/elk:latest
 kibana:8.4.3
 docker.elastic.co/kibana/kibana:6.0.0
 redis/redis-stack-server:latest
+1340691923/elastic_view:latest
